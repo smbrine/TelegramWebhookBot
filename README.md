@@ -21,7 +21,7 @@ BACKEND_API_URL
 
 These variables are predefined but can be customized based on your database configuration.
 
-The service will be available on `http://localhost:8001`.
+The service will be available on `http://localhost:8002`.
 
 ## Usage
 After running the application, you can access the self-documented API interface provided by FastAPI to explore and test available endpoints.
