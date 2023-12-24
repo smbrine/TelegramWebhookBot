@@ -1,0 +1,4 @@
+.env
+venv/
+samples/
+cfg_file
