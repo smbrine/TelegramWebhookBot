@@ -2,3 +2,4 @@
 venv/
 samples/
 cfg_file
+__pycache__

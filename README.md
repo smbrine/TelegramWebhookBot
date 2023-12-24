@@ -1,39 +1,25 @@
 # TelegramWebhookBot
 
-## Description
-FastAPI-postgres-backend is an API designed to provide access to a diverse collection of job interview questions. It aims to assist users in preparing for job interviews by offering a variety of real interview questions, facilitated through a FastAPI framework.
-
-## Features
-- Access to a diverse set of job interview questions.
-- Self-documentation through FastAPI, providing easy access to API endpoint documentation.
-
 ## Installation
 ### Prerequisites
 - Python >=3.11
 - pip
-- Docker (optional)
 - Make (optional)
 
 ### Setting up the Environment
-FastAPI-postgres-backend requires the following environment variables to run:
+TelegramWebhookBot requires the following environment variables to run:
 
 ```env
-POSTGRES_USER
-POSTGRES_PASSWORD
-POSTGRES_HOST
-POSTGRES_PORT 
-POSTGRES_DB 
-SQL_DRIVER 'postgresql+asyncpg'
+TG_BOT_KEY
+
+OR_API_KEY
+
+NGROK_URL
+
+BACKEND_API_URL
 ```
 
 These variables are predefined but can be customized based on your database configuration.
-
-### Running with Docker
-FastAPI-postgres-backend includes a Dockerfile for easy deployment. To build and run the Docker container:
-
-```bash
-docker run -p 8001:8001 smbrine/fastapi-postgres-backend
-```
 
 The service will be available on `http://localhost:8001`.
 
@@ -49,7 +35,6 @@ The Makefile includes commands for setting up the environment and running the ap
 - `make setup`: Set up the Python virtual environment and install dependencies.
 - `make run`: Run the application on `http://localhost:8002`.
 
-The `make docker` command is intended for personal use and not recommended for general users.
 
 ## Contributing
 There are no specific contribution guidelines. Feel free to change anything and offer updates to the project.
